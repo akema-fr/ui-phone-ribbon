@@ -1,45 +1,48 @@
 $numero-border-radius: 1em;
+
 .numero {
-    background: #FFF none repeat scroll 0% 0%;
-    height: 2em;
-    line-height: 2em;
-    border-radius: $numero-border-radius;
-    border: 4px solid transparent;
-    font-family: "Open Sans",sans-serif;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: left;
+  background: #FFF none repeat scroll 0 0;
+  height: 1.5em;
+  line-height: 1.5em;
+  border-radius: $numero-border-radius;
+  border: 4px solid transparent;
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
 }
 
 .numero-label {
-    line-height: 1.5em;
-    font-weight: bold;
-    float: left;
-    width: 30%;
-    padding-left: 2%;
-    border-radius: $numero-border-radius;
-    color: #FFF;
-    margin-left: -2px;
+  line-height: 1.5em;
+  font-weight: bold;
+  float: left;
+  width: 30%;
+  padding-left: 2%;
+  border-radius: $numero-border-radius;
+  color: #FFF;
+  margin-left: -2px;
 }
 
 $numero-content-margin: .5em;
 .numero-content {
-    line-height: 1.5em;
-    float: left;
-    margin-left: $numero-content-margin;
-    font-weight: bold;
+  line-height: 1.5em;
+  float: left;
+  margin-left: $numero-content-margin;
+  font-weight: bold;
 }
 
 $numero-vert-color: #8CC33A;
 .numero-vert {
-    width: 212px;
-    border-color: $numero-vert-color;
+  width: 212px;
+  border-color: $numero-vert-color;
 }
+
 .numero-vert-label {
-    background: $numero-vert-color url("/images/num-vert-puce-label.png") no-repeat scroll 6px 4px;
+  background: $numero-vert-color no-repeat scroll 6px 4px;
 }
+
 .numero-vert-content {
-    color: $numero-vert-color;
+  color: $numero-vert-color;
 }
 
 $numero-indigo-color: #924793;
@@ -47,14 +50,16 @@ $numero-indigo-label-width: 9em;
 $numero-indigo-content-width: 9em;
 $numero-indigo-width: $numero-indigo-label-width + $numero-indigo-content-width + 2 * $numero-content-margin;
 .numero-indigo {
-    width: $numero-indigo-width;
-    border-color: $numero-indigo-color;
+  width: $numero-indigo-width;
+  border-color: $numero-indigo-color;
 }
+
 .numero-indigo-label {
-    background: $numero-indigo-color url("/images/num-indigo-puce-label.png") no-repeat scroll 6px 4px;
-    width: $numero-indigo-label-width;
+  background: $numero-indigo-color no-repeat scroll 6px 4px;
+  width: $numero-indigo-label-width;
 }
+
 .numero-indigo-content {
-    color: $numero-indigo-color;
-    width: $numero-indigo-content-width;
+  color: $numero-indigo-color;
+  width: $numero-indigo-content-width;
 }
