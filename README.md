@@ -4,7 +4,7 @@ CSS-only mechanism to render a _numéro vert_, _numéro indigo_.
 
 # Preview
 
-![numéro-indigo](phone-ribbon-indigo.png "numéro-indigo")
+![numéro-indigo](preview/phone-ribbon-indigo.png "numéro-indigo")
 
 # Usage
 
