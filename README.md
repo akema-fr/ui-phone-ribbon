@@ -1,4 +1,4 @@
-# Confirmation Link
+# Phone Ribbon
 
 CSS-only mechanism to render a _numéro vert_, _numéro indigo_.
 
